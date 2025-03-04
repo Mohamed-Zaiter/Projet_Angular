@@ -6,11 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent {
-x=10;
-val="send";
-
-show(){
-
-  alert("hello")
-}
+  x=10;
+  val="submit";
+  show(){
+    alert("hello")
+  }
 }
