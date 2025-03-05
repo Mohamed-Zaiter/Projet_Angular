@@ -16,7 +16,8 @@ import { ApartmentsByResidenceComponent } from './Apartements/apartments-by-resi
 import { AddApartmentComponent } from './Apartements/add-apartment/add-apartment.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { HomeComponent } from './home/home.component';
-
+import{HttpClientModule} from '@angular/common/http';
+import { UpdateResidenceComponent } from './Residence/update-residence/update-residence.component'
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { HomeComponent } from './home/home.component';
     AddApartmentComponent,
     NotFoundComponent,
     HomeComponent,
+    UpdateResidenceComponent,
     
     
     
@@ -42,7 +44,8 @@ import { HomeComponent } from './home/home.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
     
   ],
   providers: [],
